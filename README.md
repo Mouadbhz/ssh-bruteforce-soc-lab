@@ -20,7 +20,5 @@ This project simulates an SSH brute-force attack using Kali Linux against an Ubu
 ### Failed Password Attempts
 ```spl
 index=* "Failed password"
-=======
-# ssh-bruteforce-soc-lab
-SOC lab simulating SSH brute-force attack detection using Splunk SIEM on Ubuntu and Kali Linux.
+
 
