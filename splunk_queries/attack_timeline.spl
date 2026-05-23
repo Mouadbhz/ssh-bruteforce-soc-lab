@@ -1,0 +1,2 @@
+index=* ("Failed password" OR "Invalid user")
+| timechart span=30s count
