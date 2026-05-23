@@ -20,5 +20,13 @@ This project simulates an SSH brute-force attack using Kali Linux against an Ubu
 ### Failed Password Attempts
 ```spl
 index=* "Failed password"
-
-
+```
+### Invalid Users
+```spl
+index=* "Invalid user"
+```
+### Attack Timeline
+```spl
+index=* ("Failed password" OR "Invalid user")
+| timechart span=30s count
+```
